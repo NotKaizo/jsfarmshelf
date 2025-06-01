@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - JS Farmshelf</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <h1>JS Farmshelf</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="home.html#systems">Systems</a></li>
+                <li><a href="#" class="active">Products</a></li>
+                <li><a href="home.html#about">About</a></li>
+                <li><a href="home.html#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="products-page">
+        <section class="products-hero">
+            <div class="products-hero-content">
+                <h1>Our Products</h1>
+                <p>Complete Range of Hydroponic Solutions</p>
+            </div>
+        </section>
+
+        <!-- Category Navigation -->
+        <section class="product-categories">
+            <div class="category-nav">
+                <button class="category-btn active" data-category="all">All Products</button>
+            </div>
+        </section>
+
+        <!-- Hydroponic Systems Category -->
+        <section class="product-section" id="systems">
+            <h2 class="category-title">Hydroponic Systems</h2>
+            <div class="products-grid">
+                <!-- NFT System -->
+                <div class="product-card">
+                    <div class="product-badge">Bestseller</div>
+                    <img src="https://source.unsplash.com/400x300/?hydroponic,nft" alt="NFT System">
+                    <div class="product-content">
+                        <h3>Single Vertical System</h3>
+                        <p>Professional Vertical System for leafy greens</p>
+                        <ul class="product-features">
+                            <li><i class="fas fa-check"></i> 48 Plant Capacity</li>
+                            <li><i class="fas fa-check"></i> Apartment Friendly</li>
+                            <li><i class="fas fa-check"></i> Easy Maintenance</li>
+                        </ul>
+                        <div class="product-price">From RM1,999.99</div>
+                        <button class="product-btn">View Details</button>
+                    </div>
+                </div>
+
+                <!-- DWC System -->
+                <div class="product-card">
+                    <img src="https://source.unsplash.com/400x300/?hydroponic,dwc" alt="DWC System">
+                    <div class="product-content">
+                        <h3>Double Vertical System</h3>
+                        <p>Professional Double Vertical System for leafy greens</p>
+                        <ul class="product-features">
+                            <li><i class="fas fa-check"></i> 24 Plant Capacity</li>
+                            <li><i class="fas fa-check"></i> Oxygen Pump</li>
+                            <li><i class="fas fa-check"></i> Easy Maintenance</li>
+                        </ul>
+                        <div class="product-price">From RM1,499.99</div>
+                        <button class="product-btn">View Details</button>
+                    </div>
+                </div>
+
+                <!-- Vertical System -->
+                <div class="product-card">
+                    <div class="product-badge">New</div>
+                    <img src="https://source.unsplash.com/400x300/?hydroponic,vertical" alt="Vertical System">
+                    <div class="product-content">
+                        <h3>Air Rack</h3>
+                        <p>Large Scale growing system</p>
+                        <ul class="product-features">
+                            <li><i class="fas fa-check"></i> 72 Plant Capacity</li>
+                            <li><i class="fas fa-check"></i> LED Lights</li>
+                            <li><i class="fas fa-check"></i> Smart Control</li>
+                        </ul>
+                        <div class="product-price">From RM2,999.99</div>
+                        <button class="product-btn">View Details</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Nutrients Category -->
+        <section class="product-section" id="nutrients">
+            <h2 class="category-title">Nutrients</h2>
+            <div class="products-grid">
+                <!-- Growth Nutrients -->
+                <div class="product-card">
+                    <img src="https://source.unsplash.com/400x300/?hydroponic,nutrients" alt="Growth Nutrients">
+                    <div class="product-content">
+                        <h3>Growth Nutrients</h3>
+                        <p>Complete nutrient solution for vegetative growth</p>
+                        <ul class="product-features">
+                            <li><i class="fas fa-check"></i> NPK Balanced</li>
+                            <li><i class="fas fa-check"></i> Micro Nutrients</li>
+                            <li><i class="fas fa-check"></i> 1L Bottle</li>
+                        </ul>
+                        <div class="product-price">RM39.99</div>
+                        <button class="product-btn">View Details</button>
+                    </div>
+                </div>
+
+                <!-- Bloom Nutrients -->
+                <div class="product-card">
+                    <img src="https://source.unsplash.com/400x300/?hydroponic,fertilizer" alt="Bloom Nutrients">
+                    <div class="product-content">
+                        <h3>Bloom Nutrients</h3>
+                        <p>Specialized formula for flowering stage</p>
+                        <ul class="product-features">
+                            <li><i class="fas fa-check"></i> High Phosphorus</li>
+                            <li><i class="fas fa-check"></i> Bloom Boosters</li>
+                            <li><i class="fas fa-check"></i> 1L Bottle</li>
+                        </ul>
+                        <div class="product-price">RM44.99</div>
+                        <button class="product-btn">View Details</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>JS Farmshelf</h3>
+                <p>Innovating soilless growing for a sustainable future</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="home.html#systems">Systems</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="home.html#about">About</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Connect With Us</h3>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 JS Farmshelf. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="products.js"></script>
+</body>
+</html>
